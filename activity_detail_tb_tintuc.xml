@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detail_tb_tintuc"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp">
+        <ImageButton
+            android:id="@+id/exit_in_tintuc"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_back"
+            android:background="#ffffff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Tin Tức"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thời tiết nồm rồi, bật ngay chế độ Dry khử ẩm"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thời tiết nồm rồi, bật ngay chế độ Dry khử ẩm. Ngại máy lạnh chảy nước? Hãy đặt ngay dịch vụ bảo trì Daikin với ưu đãi giảm giá hấp dẫn"
+                android:textSize="18dp"
+                />
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nhập Mã “APART “ dành cho 100 khách hàng đầu tiên nhập mã Voucher từ dịch vụ bảo trì DAIKIN:"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giảm 20% đơn đặt dịch vụ (tối đa 50.000 đồng ).
+Thời gian áp dụng: Thứ 2 đến thứ 6 hàng tuần từ 16/10-31/10 (hoặc đến khi đủ số lượng)."
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Khu vực áp dụng : nội thành TP Hồ Chí Minh, Hà Nội ."
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ẩm nồm không sợ , chẳng ngại chảy nước"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    />
+
+                <ImageView
+                    android:layout_marginTop="-500dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tt"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DAIKIN</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab_demo">tab_demo</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string-array name="sapxep_phukien">
+        <item>Giá cao đến thấp</item>
+        <item>Giá thấp đến cao</item>
+    </string-array>
+    <string-array name="chon_tinh">
+        <item>Đà Nẵng</item>
+        <item>Khánh Hoà</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Hà Nội</item>
+        <item>TP HCM</item>
+        <item>Phú Yên</item>
+        <item>An Giang</item>
+        <item>Bắc Giang</item>
+        <item>Bình Định</item>
+        <item>Quảng Trị</item>
+        <item>Cao Bằng</item>
+
+
+    </string-array>
+</resources>
